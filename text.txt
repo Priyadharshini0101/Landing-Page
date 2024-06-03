@@ -1,0 +1,16 @@
+/* Frame */
+
+position: absolute;
+width: 260.3px;
+height: 159.31px;
+left: calc(50% - 260.3px/2 - 282.85px);
+top: calc(50% - 159.31px/2 - 417.13px);
+
+backdrop-filter: blur(13.9429px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8.6407px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle */
+
