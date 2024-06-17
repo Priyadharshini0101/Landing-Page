@@ -241,6 +241,10 @@ h6 {
     border-radius: 16px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     padding:4px;
+    justify-content: space-between;
+}
+#align-items{
+    justify-content: space-between;
 }
 .card1-body{
     padding: 8px;
@@ -522,6 +526,8 @@ li{
         align-self: end;
     }
 
+   
+
 }
 
 /* Tablet */
@@ -529,6 +535,10 @@ li{
   
     .custom-card{
         padding:8px;
+    }
+    #stars {
+        width:36px;
+        height:36px;
     }
     
     
@@ -542,7 +552,7 @@ li{
     }
     
   
-    .col-5{
+    .col-5,.justify-content-end,.justify-content-between{
         width: 75%;
     }
   
@@ -622,6 +632,7 @@ h1 {
     margin-right: 10.25px;
 }
 
+
 }
 
 /* Phone */
@@ -680,7 +691,7 @@ h1 {
     top: -180px;
     width: 130px;
     height:80px;
-    justify-content: space-between;
+    
 }
 
 
